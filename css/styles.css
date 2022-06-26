@@ -1,0 +1,51 @@
+body{
+    background-color: brown;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8%;
+}
+
+.login{
+    border: 1px solid white;
+    border-radius: 20px;
+    display: inline-block;
+    background-color: rgb(110, 26, 26);
+    padding: 0 5% 5% 5%;
+}
+
+.logo-target{
+    margin-left: 15%;
+}
+
+img{
+    width: 300px;
+    height: auto;
+}
+
+input{
+    background-color: white;
+    outline: none;
+}
+
+#input-user, #input-password{
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#input-ingresar{
+    cursor: pointer;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+#input-ingresar:hover{
+    border: 1px solid white;
+    background-color: brown;
+    color: white;
+}
