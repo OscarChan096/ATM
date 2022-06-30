@@ -37,14 +37,14 @@ input{
     padding: 10px;
 }
 
-#input-ingresar{
+#input-ingresar, #consultar, #deposito, #retiro{
     cursor: pointer;
     padding: 10px;
     border: 1px solid black;
     border-radius: 10px;
 }
 
-#input-ingresar:hover{
+#input-ingresar:hover, #consultar:hover, #deposito:hover, #retiro:hover{
     border: 1px solid white;
     background-color: brown;
     color: white;
